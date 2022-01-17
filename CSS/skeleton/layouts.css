@@ -1,0 +1,30 @@
+.layout {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.main-base {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    padding-bottom: 100px;
+}
+.aside__menu {
+    border-right: 1px solid rgba(0,0,0,.0625);
+    border-left: 1px solid rgba(0,0,0,.0625);
+    position: relative;
+    
+}
+.aside__logo {
+    display: flex;
+    height: 65px;
+    border-bottom: 1px solid rgba(0,0,0,.0625);
+    border-right: 1px solid rgba(0,0,0,.0625);
+    border-left: 1px solid rgba(0,0,0,.0625);
+    padding: 0 20px;
+    flex-direction: row;
+    align-items: center;   
+}

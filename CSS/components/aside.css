@@ -1,0 +1,24 @@
+.aside {
+    width: 280px;
+    background-color: #fff;
+    position: fixed;
+    display: block;
+}
+.logo {
+    border-radius: 50%;
+    background-color: lightblue;
+}
+.title_txt {
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: lighter;
+    padding-left: 30px;
+}
+.item-link {
+    line-height: 35px;
+    margin-right: 14px;
+    position: relative;
+    text-align: center;
+    width: 35px;
+}

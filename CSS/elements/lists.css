@@ -1,0 +1,16 @@
+.nav_list {
+    list-style: none;
+    margin: 0;
+    overflow: auto;
+    height: calc(100vh - 65px);
+}
+.nav-item {
+    width: 279px;
+    height: 45px;
+    position: relative;
+    line-height: 21px;
+    color: rgb(114, 119, 122);
+    letter-spacing: 0.2px;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
