@@ -10,13 +10,11 @@
     margin-left: auto;
     margin-right: auto;
     background: #FFFFFF;
-    padding-bottom: 100px;
 }
 .aside__menu {
     border-right: 1px solid rgba(0,0,0,.0625);
     border-left: 1px solid rgba(0,0,0,.0625);
-    position: relative;
-    
+    position: relative;   
 }
 .aside__logo {
     display: flex;
@@ -27,4 +25,16 @@
     padding: 0 20px;
     flex-direction: row;
     align-items: center;   
+}
+.page-container {
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.0625);
+    height: 65px;
+    position: relative;
 }

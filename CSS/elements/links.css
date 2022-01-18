@@ -2,11 +2,9 @@
     width: 249px;
     height: 35px;
     display: flex;
-    font-size: 17px;
-    font-weight: 500;
-    padding: 5px 15px;
     position: relative;
     white-space: nowrap;
     text-align: left;
     align-items: center;
+    padding-left: 15px;
 }
