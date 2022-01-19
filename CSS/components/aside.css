@@ -1,8 +1,7 @@
 .aside {
     width: 280px;
     background-color: #fff;
-    position: relative;
-    display: block;
+    position: fixed;
 }
 .logo {
     border-radius: 50%;

@@ -1,15 +1,16 @@
 .layout {
     width: 100%;
     box-sizing: border-box;
-    position: relative;
+    position: relative; 
 }
 .main-base {
     position: relative;
     width: 100%;
-    max-width: 1920px;
+    max-width: 1720px;
     margin-left: auto;
     margin-right: auto;
-    background: #FFFFFF;
+    background: #FFFFFF; 
+    
 }
 .aside__menu {
     border-right: 1px solid rgba(0,0,0,.0625);
@@ -20,7 +21,6 @@
     display: flex;
     height: 65px;
     border-bottom: 1px solid rgba(0,0,0,.0625);
-    border-right: 1px solid rgba(0,0,0,.0625);
     border-left: 1px solid rgba(0,0,0,.0625);
     padding: 0 20px;
     flex-direction: row;
@@ -29,12 +29,17 @@
 .page-container {
     min-height: 100vh;
     box-sizing: border-box;
+    padding-left: 280px;
+    border-right: 1px solid rgba(0,0,0,.0625);
 }
 .header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background-color: #fff;
     border-bottom: 1px solid rgba(0,0,0,.0625);
     height: 65px;
     position: relative;
+
 }
