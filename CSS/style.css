@@ -7,4 +7,5 @@
 @import "./elements/links.css";
 @import "./design-tokens/spacing.css";
 @import "./components/header.css";
+@import "./components/main.css" ;
 

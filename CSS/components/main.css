@@ -1,0 +1,26 @@
+.main__containter {
+    display: block;
+    background-color: #FFFFFF; 
+    position: relative;
+}
+.form__layout {
+    width: 1000px;
+    background-color: var(--item-color);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.form-input {
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #72777a;
+    outline: none;
+    padding: 8px 20px;
+}
+.form__main {
+    background-color:#FFFFFF;
+}
+   
