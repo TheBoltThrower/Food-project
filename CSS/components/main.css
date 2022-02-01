@@ -1,26 +1,70 @@
 .main__containter {
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: #FFFFFF; 
     position: relative;
 }
 .form__layout {
-    width: 1000px;
-    background-color: var(--item-color);
     position: relative;
-    margin-left: auto;
-    margin-right: auto;    
+    margin-left: 150px;
+    margin-right: 350px;
+    font-family: var(--primary-font);
 }
-.form-input {
-    font-size: 20px;
-    font-weight: lighter;
-    margin: 10px auto;
-    box-sizing: border-box;
+.form--item {
+    padding: 10px 12px;
+    font-size: 20px; 
+    color: var(--item-txt-color);
+    font-family: var(--primary-font);
+
+}
+.form-control {
+    margin: 0 auto;
+    width: 100%;
+    padding: 8px 20px;
+    border: 0;
+    border-bottom: 1px solid #72777a;
+    outline: none;
+}
+.label {
+    color: var(--item-color);
+}
+.btn {
+    background-color: var(--item-color);
+    color: white;
+    padding: 15px 75px;
+    text-align: center;
+    font-size: 18px;
     border-radius: 10px;
     border: 1px solid #72777a;
-    outline: none;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.form-control:focus {
+    border-bottom: 1px solid #add8e6;
+    transition: 0.35s ease;
+    color: var(--item-txt-color);   
+    opacity: var(--item-opacity);
+}
+.title {
+    color:var(--item-color);
+}
+.option {
+    color: var(--item-txt-color);
+    font-size: 20px;
+    font-family: var(--primary-font);
     padding: 8px 20px;
+    border: 0;
+    border-bottom: 1px solid #add8e6;
+    outline: none;
 }
-.form__main {
-    background-color:#FFFFFF;
+.form--title {
+    color:var(--item-color);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
 }
-   
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

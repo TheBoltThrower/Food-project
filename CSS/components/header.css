@@ -1,8 +1,7 @@
 .header__left {
     display: flex;
     margin-left: 30px;
-    align-items: center;
-    
+    align-items: center;  
 }
 .header__right {
     margin-right: 50px;
@@ -29,7 +28,6 @@
     transition: 0.35s ease;
     color: var(--item-txt-color);   
     opacity: var(--item-opacity);
-
 }
 .right-item{
     border-radius: 50%;
