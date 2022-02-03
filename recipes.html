@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Project</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/style.css" />
 </head>
 <body>
@@ -13,7 +14,9 @@
             <aside class="aside">
                 <div class="aside__logo">
                     <div class="logo">
+                        <a href="./index.html">
                         <svg xmlns="http://www.w3.org/2000/svg" height="44px" viewBox="0 0 24 24" width="44px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M8.1 13.34l2.83-2.83L3.91 3.5c-1.56 1.56-1.56 4.09 0 5.66l4.19 4.18zm6.78-1.81c1.53.71 3.68.21 5.27-1.38 1.91-1.91 2.28-4.65.81-6.12-1.46-1.46-4.2-1.1-6.12.81-1.59 1.59-2.09 3.74-1.38 5.27L3.7 19.87l1.41 1.41L12 14.41l6.88 6.88 1.41-1.41L13.41 13l1.47-1.47z"/></svg>
+                        </a>
                     </div>
                     <div class="title">
                         <h5 class="title_txt">FoodProject</h5>
@@ -22,7 +25,7 @@
                 <nav class="aside__menu">
                     <ul class="nav_list">
                         <li class="nav-item mrg-T40">
-                            <a class="item-link" href="recipes.html">
+                            <a class="item-link" href="#">
                                 <div class="icon-holder">
                                     <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 24 24" width="30px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M8 5h2v3H8zm0 7h2v5H8zm10-9.99L6 2c-1.1 0-2 .89-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.11-.9-1.99-2-1.99zM18 20H6v-9.02h12V20zm0-11H6V4h12v5z"/></svg>
                                 </div>
@@ -90,12 +93,42 @@
                     </div>
                 </header>
                 <main class="main">
-                    <h1 class="title">Ovo je stranica gdje možemo unijeti sastojke i dobiti recept sa odredenim nutritivnim vrijednostima</h1>
-                  
+                    <div class="main__containter">
+                        <form id="form_recipes"></form>
+                        <div class="form__layout">
+                            <h3 class="form--title">Recipes</h3>
+                            <div class="form--item">
+                                <label class="label" for="name">
+                                    Name
+                                <input type="text" class="form-control" id="recipes_name">
+                                </label> 
+                                </div>
+                            <div class="form--item flex">
+                                <label class="label" for="ingredient">
+                                    Ingredients
+                                    <br>
+                                    <select class="option" name="name" id="ingredients_select">
+                                        <option value="" hidden id="select">Select</option>
+                                   </select>
+                                   <i class="fas fa-plus add" id="plus"></i>
+                                  </label>
+                                  <ul class="select--list">
+                                    
+                                </ul>
+                             </div>   
+                             <div class="form--item">
+                                <button class="btn" type="submit">
+                                   Submit
+                                   </button>
+                            </div>
+                     </div>
+                    </div>
                 </main>
             </div>
         </div>
     </div>
     
+    
+    <script src="./JS/recipes.js"></script>
 </body>
 </html>

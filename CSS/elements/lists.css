@@ -17,3 +17,27 @@
     align-items: center;
     
 }
+.select--list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: var(--item-txt-color);
+    list-style-type: none;
+    margin-left: 20px;
+}
+.list--item {
+    display: flex;
+    align-items: flex-end;
+    padding: 8px 20px;
+    
+   
+}
+.far {
+    padding-left: 25px;
+    color: var(--item-color);
+    margin-bottom: 4px;
+}
+
+.dsp-none {
+    display: none;
+}

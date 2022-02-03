@@ -9,8 +9,7 @@
     max-width: 1720px;
     margin-left: auto;
     margin-right: auto;
-    background: #FFFFFF; 
-    
+    background: #FFFFFF;  
 }
 .aside__menu {
     border-right: 1px solid rgba(0,0,0,.0625);
@@ -31,7 +30,6 @@
     box-sizing: border-box;
     padding-left: 280px;
     border-right: 1px solid rgba(0,0,0,.0625);
-    
 }
 .header {
     display: flex;
