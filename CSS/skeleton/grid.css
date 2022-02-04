@@ -1,0 +1,48 @@
+.grid__container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+    background-color: white;
+    padding: 20px;   
+}
+.item--flex {
+    padding: 15px 25px;
+    display:flex;
+    flex-direction: column;
+    text-align: left;  
+}
+.grid--item {
+    border: 2px solid #72777a;
+    border-radius: 5px;
+    background-color: #e4ecf1;
+    opacity: 0.8;
+}
+.calories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.calories:first-child {
+    margin-top: 30px;
+}
+.item--name {
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: 3px solid black underline;
+    text-align: center;
+    margin-top: 10px;
+}
+.calories--name {
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: 3px solid black underline;
+}
+.picture {
+    border-radius: 15px;
+}

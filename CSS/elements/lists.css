@@ -5,6 +5,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    
 }
 .nav-item {
     min-height: 45px;

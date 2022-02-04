@@ -10,7 +10,7 @@ const deleteItem = document.getElementById('delete');
 
 
 
-    
+//Iteriranje kroz array sastojaka i dodavanje htmel templejta u select
 var render = () => {
     
     var items = JSON.parse(localStorage.getItem('sastojci'));
@@ -24,13 +24,15 @@ var render = () => {
 }
 render();
 
+
+//dodavannje u bazu recepata koje trenutno neradi :)
  var recipesAll = [];
 
 formRecipes.addEventListener('submit', e => {
     e.preventDefault();
     var recipes = {
         name: document.getElementById('recipes_name').value,
-        ingredient: document.getElementById('select').value
+        ingredient: document.getElementById('ingredientSelect').value
         
     }
     
@@ -40,7 +42,7 @@ formRecipes.addEventListener('submit', e => {
     
 })  
 
-
+// dodavanje u listu sastojaka sa ikonom +
 plus.addEventListener('click', e => {
     //console.log(ingredientSelect.value);
     var y = `<li class="list--item">
@@ -52,26 +54,12 @@ ingredientSelect.selectedIndex = 0;
 })
 
 
-
+//Brisanje itema iz liste na ikonu kantice
 table.addEventListener('click', e => {
     if(e.target.classList.contains('delete')){
         e.target.parentElement.remove();
     }
  });
-
-/* table.addEventListener('click', e => {
-    if(e.target.classList.contains('.add')) {
-        var y = `<li class="list--item">
-                 <span>${ingredientSelect.value}</span>                      
-        <i class="far fa-trash-alt delete"></i>
-     </li>`
-        table.innerHTML += y;
-
-    }
-}) */
+ //dodavannje u bazu recepata 
 
 
-
-    // if(e.target.classList.contains('delete')){
-    //     e.target.parentElement.remove();
-    // }

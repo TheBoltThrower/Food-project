@@ -1,4 +1,5 @@
 
+//Spremanje sastojaka u localStorage/Array ingredients = array objekata unesenih
 const formIngredients = document.getElementById('form_ingredients');
 
 var ingredients = [];
