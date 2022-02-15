@@ -15,7 +15,6 @@
     font-size: 20px; 
     color: var(--item-txt-color);
     font-family: var(--primary-font);
-
 }
 .form-control {
     margin: 0 auto;
@@ -39,6 +38,16 @@
     border: 1px solid #72777a;
     margin-top: 25px;
     cursor: pointer;
+}
+.btn-para {
+    color: red;
+    font-family: var(--primary-font);
+    margin-left: 20px;
+    font-size: 16px;
+    
+}
+.hide-error {
+    display: none;
 }
 .form-control:focus {
     border-bottom: 1px solid #add8e6;

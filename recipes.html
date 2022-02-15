@@ -94,13 +94,14 @@
                 </header>
                 <main class="main">
                     <div class="main__containter">
-                        <form id="form_recipes"></form>
+                        <form id="form_recipes">
                         <div class="form__layout">
                             <h3 class="form--title">Recipes</h3>
                             <div class="form--item">
                                 <label class="label" for="name">
                                     Name
-                                <input type="text" class="form-control" id="recipes_name">
+                                <input type="text" class="form-control" id="recipes_name" required>
+                                <p class="btn-para hide-error" id="name-error">the recipe name already exists</p>
                                 </label> 
                                 </div>
                             <div class="form--item flex">
@@ -113,15 +114,16 @@
                                    <i class="fas fa-plus add" id="plus"></i>
                                   </label>
                                   <ul class="select--list">
-                                    
                                 </ul>
                              </div>   
                              <div class="form--item">
+                                <p class="btn-para hide-error" id="ingredient-error">choose minimum 2 ingredients</p>
                                 <button class="btn" type="submit">
                                    Submit
                                    </button>
                             </div>
                      </div>
+                    </form>
                     </div>
                 </main>
             </div>

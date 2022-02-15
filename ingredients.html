@@ -99,19 +99,20 @@
                             <div class="form--item">
                                 <label class="label" for="name">
                                     Name
-                                <input type="text" class="form-control" id="name">
+                                <input type="text" class="form-control" id="name" required>
                                 </label>
                              </div>            
                              <div class="form--item">
                                 <label class="label" for="kcal">
                                     Kcal
-                                <input type="number" class="form-control" min="10" max="1000" id="kcal">
+                                <input type="number" class="form-control" min="10" max="1000" id="kcal" required>
                                 </label>
                              </div>        
-                             <div class="form--item">
+                             <div class="form--item" id="para">
                              <button class="btn" type="submit">
                                 Submit
                                 </button>
+                                <p class="btn-para hide-error" id="show-error">Ingredient already exist</p>
                                 </div>
                              </div>  
                             </form>      
