@@ -14,7 +14,7 @@ var GetNameAndKcal = () => {
         var card = `<div class="grid--item">
          <div class="item--flex">
                <div>
-                  <img class="picture" src="./img/rizoto.webp" alt="">
+                  <img class="picture" src="${el.img}" alt="">
                 </div>
                   <h1 class="item--name">${el.name}</h1>
                 <div class="calories">

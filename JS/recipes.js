@@ -48,6 +48,7 @@ formRecipes.addEventListener('submit', e => {
 
     var recipe = {
         name: document.getElementById('recipes_name').value,
+        img: document.getElementById('img').value,
         ingredients: ings,
         kcal: 0
     }

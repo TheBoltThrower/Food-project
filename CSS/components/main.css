@@ -74,6 +74,7 @@
     font-weight: 600;
     margin-bottom: 15px;
 }
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
    -webkit-appearance: none;
@@ -85,4 +86,10 @@ input::-webkit-inner-spin-button {
 .flex {
     display: flex;
     flex-direction: row;
+}
+
+.invalid {
+    color: red;
+    font-size: 18px;
+    padding-top: 7px;
 }

@@ -100,12 +100,14 @@
                                 <label class="label" for="name">
                                     Name
                                 <input type="text" class="form-control" id="name" required>
+                                <p class="invalid" id="errtxt">Ingredient name invalid, must contain min 3 and max 12 words</p>
                                 </label>
                              </div>            
                              <div class="form--item">
                                 <label class="label" for="kcal">
                                     Kcal
                                 <input type="number" class="form-control" min="10" max="1000" id="kcal" required>
+                                <p id="feedback"></p>
                                 </label>
                              </div>        
                              <div class="form--item" id="para">
