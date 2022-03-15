@@ -87,9 +87,7 @@ input::-webkit-inner-spin-button {
     display: flex;
     flex-direction: row;
 }
-
-.invalid {
-    color: red;
+.invalid {  
     font-size: 18px;
     padding-top: 7px;
 }
